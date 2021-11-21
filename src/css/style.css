@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+    background: #f9f8fb;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+.wrapp {
+    width: 1170px;
+    margin: 0 auto;
+}
+.background-1 {
+    background-image: url("./../img/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-2 {
+    width: 100%;
+    background: #00baba;
+}
+.black {
+    color: #262626;
+}
+.white {
+    color: #ffffff;
+}
+.font {
+    font-family: Raleway;
+}
+.bold {
+    font-weight: 700;  
+}
+.heavy {
+    font-weight: 900;  
+}
+.header {
+    height: 1000px;
+    padding-top: 50px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+}
+.header__nav--img {
+}
+.header__nav--menu {
+    list-style-type: none;
+}
+.header__nav--item {
+    display: inline-block;
+    margin: 0 16px;
+}
+.header__nav--item a {
+    display: inline-block;
+    position: relative;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.header__nav--item a::before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff6033;
+    top: 4px;
+    left: 0;
+    transition: linear .3s;
+
+}
+.header__nav--item a:hover::before {
+    width: 100%;
+}
+.header__nav--item:first-child {
+    margin-left: 0;
+}
+.header__nav--item:last-child {
+    margin-right: 0;
+}
+.header__content {
+    margin-top: 246px;
+}
+.header__content--title {
+    margin-bottom: 34px;
+    font-size: 62px;
+}
+.header__content--desc {
+    margin-bottom: 35px;
+    width: 34%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.header__content--btn {
+    cursor: pointer;
+    padding: 20px 25px;
+    background: #ff6033;
+    border: none;
+    box-shadow: 0 4px 6px #262626b0;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: linear .3s;
+}
+.header__content--btn:hover {
+    background: #ff744e;
+}
+.header__content--btn:active {
+    background: #c44826;
+}
+.about {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 35px 0;
+}
+.about__img {
+}
+.about__content {
+}
+.about__title {
+    font-size: 90px;
+}
+.about__desc {
+    font-size: 17px;
+    margin: 18px 0;
+    line-height: 1.5;
+}
