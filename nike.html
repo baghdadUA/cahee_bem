@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/nike.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Nike</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__wrapp">
+                <div class="main__logo">
+                    <img src="src/img/logo_nike.png" alt="">
+                </div>
+                <div class="main__item">
+                    <div class="main__img">
+                        <img src="src/img/nike_item.png" alt="">
+                    </div>
+                    <div class="main__slider">
+                        <input type="radio" name="color" checked>
+                        <input type="radio" name="color">
+                        <input type="radio" name="color">
+                        <input type="radio" name="color">
+                    </div>
+                </div>
+                <div class="main__item_desc">
+                    <h1 class="main__item_desc--title">Nike SB Stefan Janoski Max</h1>
+                    <span class="main__item_desc--subtitle">Unisex Skateboarding Shoe (Men's Sizing)</span>
+                    <div class="main__item_desc_rate"></div>
+                    <form action="">
+                        <select name="size" class="">
+                            <option value="size" selected>Size</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="9.5">9.5</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                        </select>
+                        <select name="city" class="main__item_desc_rate--select">
+                            <option value="city" selected>City</option>
+                            <option value="liverpool">Liverpool</option>
+                            <option value="toronto">Toronto</option>
+                            <option value="new-york">New-York</option>
+                            <option value="los-angeles">Los-Angeles</option>
+                            <option value="washington">Washington</option>
+                        </select>
+                        <button>Add to cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
